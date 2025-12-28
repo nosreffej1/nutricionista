@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cíntia Dias | Nutricionista — Emagrecimento & Estética</title>
+
+    <meta
+      name="description"
+      content="Nutrição feminina com foco em emagrecimento consciente, estética com equilíbrio e saúde da mulher. Atendimento online e presencial em Águas Claras - DF."
+    />
+    <meta name="theme-color" content="#B76E79" />
+
+    <meta
+      property="og:title"
+      content="Cíntia Dias | Nutricionista — Emagrecimento & Estética"
+    />
+    <meta
+      property="og:description"
+      content="Te ajudo a escolher sua roupa — e não a roupa te escolher. Conquiste sua mudança hoje."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="preloader" id="preloader" aria-hidden="true">
+      <div class="preloader__card">
+        <div class="preloader__spark"></div>
+        <div class="preloader__brand">
+          <div class="preloader__logo">CD</div>
+          <div class="preloader__text">
+            <strong>Cíntia Dias</strong>
+            <span>Nutrição • Emagrecimento & Estética</span>
+          </div>
+        </div>
+        <div class="preloader__bar">
+          <div class="preloader__barFill" id="preloaderBar"></div>
+        </div>
+        <p class="preloader__hint">Preparando sua experiência…</p>
+      </div>
+    </div>
+
+    <div class="bgOrnaments" aria-hidden="true">
+      <div class="bgOrnaments__blob bgOrnaments__blob--a"></div>
+      <div class="bgOrnaments__blob bgOrnaments__blob--b"></div>
+      <div class="bgOrnaments__grid"></div>
+      <div class="bgOrnaments__grain"></div>
+    </div>
+
+    <div class="topbar" role="region" aria-label="Barra de avisos">
+      <div class="container topbar__inner">
+        <div class="topbar__left">
+          <span class="badge badge--soft">
+            <span class="badge__dot"></span>
+            Atendimento online e presencial • Águas Claras - DF
+          </span>
+        </div>
+        <div class="topbar__right">
+          <a class="topbar__link" href="#faq">Dúvidas</a>
+          <span class="topbar__sep">•</span>
+          <a class="topbar__link" href="#contato">Agendar</a>
+          <span class="topbar__sep">•</span>
+          <a
+            class="topbar__cta"
+            id="topbarWhats"
+            href="https://wa.me/5500000000000"
+            target="_blank"
+            rel="noopener"
+            >WhatsApp</a
+          >
+        </div>
+      </div>
+    </div>
+
+
+    <header class="header" id="header">
+      <nav class="nav container" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="Ir para o início">
+          <!-- <span class="brand__mark" aria-hidden="true">CD</span> -->
+          <span class="brand__text">
+            <strong>Cíntia Dias</strong>
+            <small>Nutricionista • Emagrecimento & Estética</small>
+          </span>
+        </a>
+
+        <div class="nav__links" id="navLinks" aria-label="Seções">
+          <a class="nav__link" href="#sobre">Sobre</a>
+          <a class="nav__link" href="#metodo">Método</a>
+          <a class="nav__link" href="#especialidades">Especialidades</a>
+          <a class="nav__link" href="#resultados">Resultados</a>
+          <a class="nav__link" href="#depoimentos">Depoimentos</a>
+          <a class="nav__link" href="#faq">FAQ</a>
+          <a class="nav__btn" href="#contato">Agendar</a>
+        </div>
+
+        <button
+          class="nav__toggle"
+          id="navToggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
+          <span class="nav__toggleLine"></span>
+          <span class="nav__toggleLine"></span>
+          <span class="nav__toggleLine"></span>
+        </button>
+      </nav>
+
+      <div class="progress" aria-hidden="true">
+        <div class="progress__bar" id="scrollProgress"></div>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-label="Seção principal">
+        <div class="hero__bg" aria-hidden="true">
+          <div class="hero__bgGlow"></div>
+          <div class="hero__bgPhoto"></div>
+          <div class="hero__bgOverlay"></div>
+        </div>
+
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="kicker" data-animate="fade-up">
+              <span class="kicker__line"></span>
+              <span>Nutrição feminina • Águas Claras - DF</span>
+            </p>
+
+            <h1 class="hero__title" data-animate="fade-up" data-delay="80">
+              Emagrecimento com consciência.<br />
+              <span class="hero__titleAccent">Estética com equilíbrio.</span>
+            </h1>
+
+            <p class="hero__subtitle" data-animate="fade-up" data-delay="140">
+              Te ajudo a escolher sua roupa e não a roupa te escolher. Um
+              acompanhamento que une técnica, acolhimento e estratégia para você
+              voltar a se sentir bem no seu corpo.
+            </p>
+
+            <div class="hero__ctaRow" data-animate="fade-up" data-delay="220">
+              <a class="btn btn--primary" href="#contato">
+                <span>Agendar consulta</span>
+                <i class="icon icon--arrow" aria-hidden="true"></i>
+              </a>
+              <a class="btn btn--ghost" href="#metodo">
+                <span>Conhecer o método</span>
+                <i class="icon icon--chev" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <div class="hero__proof" data-animate="fade-up" data-delay="300">
+              <div class="proof">
+                <div class="proof__item">
+                  <span class="proof__label">Abordagem</span>
+                  <strong class="proof__value">Humanizada</strong>
+                </div>
+                <div class="proof__item">
+                  <span class="proof__label">Foco</span>
+                  <strong class="proof__value">Resultados sustentáveis</strong>
+                </div>
+                <div class="proof__item">
+                  <span class="proof__label">Atendimento</span>
+                  <strong class="proof__value">Online + Presencial</strong>
+                </div>
+              </div>
+
+              <div class="miniReviews" aria-label="Avaliações">
+                <div class="miniReviews__faces" aria-hidden="true">
+                  <span class="face"></span>
+                  <span class="face"></span>
+                  <span class="face"></span>
+                </div>
+                <div class="miniReviews__text">
+                  <strong>Atendimento acolhedor</strong>
+                  <small>Estratégia + leveza na rotina</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside
+            class="heroCard"
+            data-animate="fade-left"
+            data-delay="180"
+            aria-label="Cartão de destaque"
+          >
+            <div class="heroCard__top">
+              <div class="heroCard__chip">
+                <span class="dot"></span>
+                <span>Emagrecimento & Estética</span>
+              </div>
+              <div class="heroCard__chip heroCard__chip--gold">
+                <span class="star" aria-hidden="true"></span>
+                <span>Saúde da Mulher</span>
+              </div>
+            </div>
+
+            <div class="heroCard__body">
+              <h2 class="heroCard__title">Acompanhamento completo</h2>
+              <p class="heroCard__desc">
+                Plano alimentar realista, estratégias de comportamento e suporte
+                para ajustar o caminho sem culpa.
+              </p>
+
+              <div class="heroCard__list" role="list">
+                <div class="heroCard__li" role="listitem">
+                  <i class="check" aria-hidden="true"></i>
+                  <span>Consulta estratégica e anamnese detalhada</span>
+                </div>
+                <div class="heroCard__li" role="listitem">
+                  <i class="check" aria-hidden="true"></i>
+                  <span>Plano personalizado + lista de substituições</span>
+                </div>
+                <div class="heroCard__li" role="listitem">
+                  <i class="check" aria-hidden="true"></i>
+                  <span>Acompanhamento com ajustes e orientação</span>
+                </div>
+                <div class="heroCard__li" role="listitem">
+                  <i class="check" aria-hidden="true"></i>
+                  <span>Foco em saúde, estética e rotina possível</span>
+                </div>
+              </div>
+
+              <div class="heroCard__cta">
+                <a class="btn btn--primary btn--block" href="#contato"
+                  >Quero começar</a
+                >
+                <p class="heroCard__note">
+                  Sem promessas irreais. Com estratégia e consistência.
+                </p>
+              </div>
+            </div>
+
+            <div class="heroCard__bottom" aria-hidden="true">
+              <div class="heroCard__ring"></div>
+              <div class="heroCard__ring heroCard__ring--sm"></div>
+            </div>
+          </aside>
+        </div>
+        <div class="hero__anchors" aria-label="Atalhos">
+          <a class="anchor" href="#especialidades">
+            <span class="anchor__label">Especialidades</span>
+            <span class="anchor__icon" aria-hidden="true">⌁</span>
+          </a>
+          <a class="anchor" href="#resultados">
+            <span class="anchor__label">Resultados</span>
+            <span class="anchor__icon" aria-hidden="true">⟡</span>
+          </a>
+          <a class="anchor" href="#contato">
+            <span class="anchor__label">Agendar</span>
+            <span class="anchor__icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+      <section class="trustStrip" aria-label="Indicadores">
+        <div class="container trustStrip__grid">
+          <div class="metric" data-counter>
+            <div class="metric__value"><span data-count="500">0</span>+</div>
+            <div class="metric__label">vidas impactadas</div>
+          </div>
+          <div class="metric" data-counter>
+            <div class="metric__value"><span data-count="98">0</span>%</div>
+            <div class="metric__label">satisfação no acompanhamento</div>
+          </div>
+          <div class="metric" data-counter>
+            <div class="metric__value"><span data-count="24">0</span>h</div>
+            <div class="metric__label">prazo médio de resposta (útil)</div>
+          </div>
+          <div class="metric" data-counter>
+            <div class="metric__value"><span data-count="1">0</span>:</div>
+            <div class="metric__label">1 atenção a você (sempre)</div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="sobre" aria-label="Sobre a profissional">
+        <div class="container">
+          <div class="sectionHead" data-animate="fade-up">
+            <p class="sectionHead__kicker">Quem sou</p>
+            <h2 class="sectionHead__title">
+              Profissional, acolhedora e estratégica.
+            </h2>
+            <p class="sectionHead__desc">
+              Meu foco é ajudar você a construir resultados sustentáveis sem
+              dietas impossíveis e sem culpa. Nutrição é ciência, mas também é
+              rotina, emoção e história.
+            </p>
+          </div>
+
+          <div class="aboutGrid">
+            <div class="aboutMedia" data-animate="fade-right">
+              <div class="aboutMedia__frame">
+                <img
+                  class="aboutMedia__img"
+                  src="./assets/perfil.png"
+                  alt="Imagem ilustrativa de profissional de saúde"
+                  loading="lazy"
+                />
+                <div class="aboutMedia__tag">
+                  <span class="pill">Nutricionista</span>
+                  <span class="pill pill--gold">Saúde da Mulher</span>
+                </div>
+                <div class="aboutMedia__badge">
+                  <strong>Atendimento</strong>
+                  <span>Online • Presencial</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="aboutCopy" data-animate="fade-left" data-delay="100">
+              <h3 class="aboutCopy__title">
+                “Te ajudo a escolher sua roupa e não a roupa te escolher.”
+              </h3>
+              <p class="aboutCopy__p">
+                O seu corpo não é um problema para ser consertado: ele é um
+                lugar para viver bem. No acompanhamento, a gente trabalha
+                estratégia nutricional + comportamento alimentar + consistência.
+              </p>
+
+              <div class="aboutBullets" role="list">
+                <div class="bullet" role="listitem">
+                  <i class="bullet__icon" aria-hidden="true"></i>
+                  <div class="bullet__txt">
+                    <strong>Plano realista</strong>
+                    <span>Do café da manhã ao jantar com substituições.</span>
+                  </div>
+                </div>
+                <div class="bullet" role="listitem">
+                  <i class="bullet__icon" aria-hidden="true"></i>
+                  <div class="bullet__txt">
+                    <strong>Acolhimento</strong>
+                    <span>Sem julgamento. Com orientação e clareza.</span>
+                  </div>
+                </div>
+                <div class="bullet" role="listitem">
+                  <i class="bullet__icon" aria-hidden="true"></i>
+                  <div class="bullet__txt">
+                    <strong>Autonomia</strong>
+                    <span
+                      >Você aprende a decidir com segurança no dia a dia.</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="aboutCTA">
+                <a class="btn btn--primary" href="#contato">
+                  <span>Quero ser acompanhada</span>
+                  <i class="icon icon--arrow" aria-hidden="true"></i>
+                </a>
+                <a class="btn btn--ghost" href="#especialidades">
+                  <span>Ver especialidades</span>
+                  <i class="icon icon--chev" aria-hidden="true"></i>
+                </a>
+              </div>
+
+              <div class="signature" aria-hidden="true">
+                <span class="signature__line"></span>
+                <span class="signature__name">Cíntia Dias</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section section--soft"
+        id="paraquem"
+        aria-label="Para quem é"
+      >
+        <div class="container">
+          <div class="sectionHead" data-animate="fade-up">
+            <p class="sectionHead__kicker">Para quem é</p>
+            <h2 class="sectionHead__title">
+              Se você se identifica com pelo menos um desses pontos…
+            </h2>
+            <p class="sectionHead__desc">
+              O acompanhamento foi desenhado para mulheres reais com rotina,
+              trabalho, família, ansiedade e pouco tempo.
+            </p>
+          </div>
+
+          <div class="audienceGrid">
+            <article class="audienceCard" data-animate="fade-up">
+              <h3>Você já tentou “tudo”</h3>
+              <p>
+                E sempre volta para o mesmo ciclo. Aqui você aprende um caminho
+                possível e sustentável.
+              </p>
+            </article>
+
+            <article
+              class="audienceCard"
+              data-animate="fade-up"
+              data-delay="80"
+            >
+              <h3>Seu foco é estética com saúde</h3>
+              <p>
+                Estratégia nutricional para composição corporal, pele, energia e
+                bem-estar.
+              </p>
+            </article>
+
+            <article
+              class="audienceCard"
+              data-animate="fade-up"
+              data-delay="160"
+            >
+              <h3>Você quer paz com a comida</h3>
+              <p>
+                Menos culpa, mais clareza. Sem terrorismo nutricional e sem
+                extremismo.
+              </p>
+            </article>
+
+            <article
+              class="audienceCard"
+              data-animate="fade-up"
+              data-delay="240"
+            >
+              <h3>Você está na menopausa</h3>
+              <p>
+                Cuidado nutricional para as transições hormonais e sintomas que
+                impactam a qualidade de vida.
+              </p>
+            </article>
+          </div>
+
+          <div class="sectionCTA" data-animate="fade-up" data-delay="240">
+            <div class="sectionCTA__box">
+              <div class="sectionCTA__copy">
+                <strong>Vamos começar com um plano claro?</strong>
+                <span
+                  >Agende uma consulta e receba orientação personalizada.</span
+                >
+              </div>
+              <a class="btn btn--primary" href="#contato">Agendar agora</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="metodo" aria-label="Método de atendimento">
+        <div class="container">
+          <div class="sectionHead" data-animate="fade-up">
+            <p class="sectionHead__kicker">Metodologia</p>
+            <h2 class="sectionHead__title">Como funciona o atendimento</h2>
+            <p class="sectionHead__desc">
+              Um passo a passo que dá direção, reduz ansiedade e mantém você no
+              caminho com consistência.
+            </p>
+          </div>
+
+          <div class="methodLayout">
+            <div class="timeline" data-animate="fade-right">
+              <div class="timeline__item">
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                  <h3>01 • Consulta inicial</h3>
+                  <p>
+                    Conversa profunda para entender seu histórico,
+                    comportamento, preferências e desafios. Aqui a estratégia
+                    começa.
+                  </p>
+                  <ul>
+                    <li>Objetivos e contexto</li>
+                    <li>Exames (quando houver)</li>
+                    <li>Rotina, sono e estresse</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline__item">
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                  <h3>02 • Plano personalizado</h3>
+                  <p>
+                    Plano alimentar alinhado ao seu dia real, com substituições
+                    e flexibilidade.
+                  </p>
+                  <ul>
+                    <li>Estratégia de refeições</li>
+                    <li>Lista de trocas</li>
+                    <li>Foco em saciedade</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline__item">
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                  <h3>03 • Acompanhamento</h3>
+                  <p>
+                    Ajustes e suporte contínuo porque o processo evolui, e o
+                    plano também.
+                  </p>
+                  <ul>
+                    <li>Check-ins e ajustes</li>
+                    <li>Estratégias para eventos</li>
+                    <li>Consistência sem culpa</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="tabs" data-animate="fade-left" data-delay="120">
+              <div
+                class="tabs__header"
+                role="tablist"
+                aria-label="Detalhes do método"
+              >
+                <button
+                  class="tabs__btn is-active"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="tab1"
+                  id="t1"
+                >
+                  O que você recebe
+                </button>
+                <button
+                  class="tabs__btn"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="tab2"
+                  id="t2"
+                >
+                  Como eu conduzo
+                </button>
+                <button
+                  class="tabs__btn"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="tab3"
+                  id="t3"
+                >
+                  Resultados sustentáveis
+                </button>
+              </div>
+
+              <div class="tabs__panels">
+                <div
+                  class="tabs__panel is-active"
+                  role="tabpanel"
+                  id="tab1"
+                  aria-labelledby="t1"
+                >
+                  <h3>Entregáveis práticos</h3>
+                  <p>
+                    Sem “PDF genérico”. Você recebe orientações pensadas para
+                    sua realidade e aprende a se guiar.
+                  </p>
+                  <div class="panelGrid">
+                    <div class="panelCard">
+                      <strong>Plano alimentar</strong>
+                      <span>Estrutura + flexibilidade</span>
+                    </div>
+                    <div class="panelCard">
+                      <strong>Substituições</strong>
+                      <span>Opções para o dia a dia</span>
+                    </div>
+                    <div class="panelCard">
+                      <strong>Orientações</strong>
+                      <span>Hábitos e comportamento</span>
+                    </div>
+                    <div class="panelCard">
+                      <strong>Suporte</strong>
+                      <span>Ajustes e acompanhamento</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="tabs__panel"
+                  role="tabpanel"
+                  id="tab2"
+                  aria-labelledby="t2"
+                >
+                  <h3>Uma jornada com direção</h3>
+                  <p>
+                    Eu conduzo com técnica e acolhimento: explico o “porquê” das
+                    escolhas e simplifico o processo para você manter
+                    constância.
+                  </p>
+                  <div class="quoteCard">
+                    <p>
+                      “Nutrição não é só o que você come é como você vive. E
+                      viver bem pede estratégia.”
+                    </p>
+                    <span>Cíntia Dias</span>
+                  </div>
+                  <ul class="checkList">
+                    <li>Alimentação possível</li>
+                    <li>Sem terrorismo alimentar</li>
+                    <li>Clareza e autonomia</li>
+                    <li>Foco em consistência</li>
+                  </ul>
+                </div>
+
+                <div
+                  class="tabs__panel"
+                  role="tabpanel"
+                  id="tab3"
+                  aria-labelledby="t3"
+                >
+                  <h3>O que muda de verdade</h3>
+                  <p>
+                    Você aprende estratégias que ficam com você para além do
+                    acompanhamento.
+                  </p>
+                  <div class="bars">
+                    <div class="bar">
+                      <div class="bar__top">
+                        <span>Consistência</span>
+                        <span>+62%</span>
+                      </div>
+                      <div class="bar__track">
+                        <div class="bar__fill" style="width: 62%"></div>
+                      </div>
+                    </div>
+
+                    <div class="bar">
+                      <div class="bar__top">
+                        <span>Autonomia</span>
+                        <span>+44%</span>
+                      </div>
+                      <div class="bar__track">
+                        <div class="bar__fill" style="width: 44%"></div>
+                      </div>
+                    </div>
+
+                    <div class="bar">
+                      <div class="bar__top">
+                        <span>Paz com a comida</span>
+                        <span>+53%</span>
+                      </div>
+                      <div class="bar__track">
+                        <div class="bar__fill" style="width: 53%"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <p class="smallNote">
+                    *Indicadores ilustrativos: personalize com dados reais
+                    quando desejar.
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__cta">
+                <a class="btn btn--primary btn--block" href="#contato"
+                  >Agendar e começar</a
+                >
+                <small
+                  >Atendimento acolhedor • Direção clara • Resultados
+                  sustentáveis</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section section--soft"
+        id="especialidades"
+        aria-label="Especialidades"
+      >
+        <div class="container">
+          <div class="sectionHead" data-animate="fade-up">
+            <p class="sectionHead__kicker">Especialidades</p>
+            <h2 class="sectionHead__title">Onde posso te ajudar?</h2>
+            <p class="sectionHead__desc">
+              Áreas que costumo trabalhar com maior frequência sempre adaptando
+              ao seu contexto e necessidades.
+            </p>
+          </div>
+
+          <div class="specGrid">
+            <article class="specCard" data-animate="fade-up">
+              <div class="specCard__icon" aria-hidden="true">✦</div>
+              <h3>Emagrecimento feminino</h3>
+              <p>
+                Estratégias para perder peso com saúde e manter o resultado sem
+                efeito sanfona.
+              </p>
+              <button class="linkBtn" data-modal-open="m1">Saiba mais</button>
+            </article>
+
+            <article class="specCard" data-animate="fade-up" data-delay="80">
+              <div class="specCard__icon" aria-hidden="true">✦</div>
+              <h3>Estética & composição corporal</h3>
+              <p>
+                Nutrição para performance estética: saciedade, energia e
+                escolhas inteligentes.
+              </p>
+              <button class="linkBtn" data-modal-open="m2">Saiba mais</button>
+            </article>
+
+            <article class="specCard" data-animate="fade-up" data-delay="160">
+              <div class="specCard__icon" aria-hidden="true">✦</div>
+              <h3>Menopausa & saúde da mulher</h3>
+              <p>
+                Estratégias para sintomas, metabolismo, massa magra e qualidade
+                de vida.
+              </p>
+              <button class="linkBtn" data-modal-open="m3">Saiba mais</button>
+            </article>
+
+            <article class="specCard" data-animate="fade-up" data-delay="240">
+              <div class="specCard__icon" aria-hidden="true">✦</div>
+              <h3>Reeducação alimentar</h3>
+              <p>
+                Para organizar rotina, reduzir compulsões e criar constância sem
+                radicalismos.
+              </p>
+              <button class="linkBtn" data-modal-open="m4">Saiba mais</button>
+            </article>
+          </div>
+
+          <div class="specBanner" data-animate="fade-up" data-delay="120">
+            <div class="specBanner__copy">
+              <strong>Quer um plano que caiba na sua vida?</strong>
+              <span>Você não precisa ser perfeita precisa de direção.</span>
+            </div>
+            <a class="btn btn--primary" href="#contato">Agendar avaliação</a>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="resultados" aria-label="Resultados">
+        <div class="container">
+          <div class="sectionHead" data-animate="fade-up">
+            <p class="sectionHead__kicker">Resultados</p>
+            <h2 class="sectionHead__title">
+              Resultados reais (sem promessas irreais)
+            </h2>
+            <p class="sectionHead__desc">
+              O foco é consistência. A estética vem como consequência com saúde
+              em primeiro lugar.
+            </p>
+          </div>
+
+          <div class="resultsGrid">
+            <div class="resultsCard" data-animate="fade-right">
+              <h3>O que você percebe na prática</h3>
+              <ul class="checkList checkList--boxed">
+                <li>Menos inchaço e mais disposição</li>
+                <li>Melhor relação com a comida</li>
+                <li>Mais controle de escolhas no dia a dia</li>
+                <li>Progresso sem radicalismo</li>
+                <li>Autoestima alinhada à rotina real</li>
+              </ul>
+              <div class="noteBox">
+                <strong>Importante:</strong>
+                <span
+                  >Resultados variam de pessoa para pessoa. O acompanhamento é
+                  individualizado.</span
+                >
+              </div>
+            </div>
+
+            <div
+              class="gallery"
+              data-animate="fade-left"
+              data-delay="120"
+              aria-label="Galeria ilustrativa"
+            >
+              <div class="gallery__grid">
+                <figure class="gallery__item gallery__item--lg">
+                  <img
+                    src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1400&q=80"
+                    alt="Alimentos saudáveis"
+                    loading="lazy"
+                  />
+                  <figcaption>Rotina possível</figcaption>
+                </figure>
+                <figure class="gallery__item">
+                  <img
+                    src="https://images.unsplash.com/photo-1514995669114-6081e934b693?auto=format&fit=crop&w=1200&q=80"
+                    alt="Preparação de alimentos"
+                    loading="lazy"
+                  />
+                  <figcaption>Estratégia</figcaption>
+                </figure>
+                <figure class="gallery__item">
+                  <img
+                    src="https://images.unsplash.com/photo-1546069901-eacef0df6022?auto=format&fit=crop&w=1200&q=80"
+                    alt="Salada colorida"
+                    loading="lazy"
+                  />
+                  <figcaption>Equilíbrio</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="ba" data-animate="fade-up">
+            <div class="ba__head">
+              <h3>Exemplo visual</h3>
+            </div>
+
+            <div class="ba__wrap" data-ba>
+              <div class="ba__img ba__img--before" aria-label="Antes">
+                <div class="ba__label">Antes</div>
+              </div>
+              <div class="ba__img ba__img--after" aria-label="Depois">
+                <div class="ba__label">Depois</div>
+              </div>
+              <div
+                class="ba__handle"
+                data-ba-handle
+                role="slider"
+                aria-label="Comparador"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="55"
+                tabindex="0"
+              >
+                <span class="ba__handleDot" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section section--soft"
+        id="depoimentos"
+        aria-label="Depoimentos"
+      >
+        <div class="container">
+          <div class="sectionHead" data-animate="fade-up">
+            <p class="sectionHead__kicker">Depoimentos</p>
+            <h2 class="sectionHead__title">O que minhas pacientes dizem</h2>
+            <p class="sectionHead__desc">
+              A transformação não é só estética é mental, emocional e prática.
+            </p>
+          </div>
+
+          <div
+            class="slider"
+            data-slider
+            data-animate="fade-up"
+            data-delay="120"
+          >
+            <div class="slider__viewport" data-slider-viewport>
+              <div class="slider__track" data-slider-track>
+                <!-- Slide 1 -->
+                <article class="review">
+                  <div class="review__top">
+                    <div class="review__stars" aria-hidden="true">★★★★★</div>
+                    <span class="review__tag">Acolhimento</span>
+                  </div>
+                  <p class="review__text">
+                    “Eu achava que precisava de mais força de vontade. Na
+                    verdade, eu precisava de estratégia. Foi o primeiro
+                    acompanhamento que respeitou minha rotina.”
+                  </p>
+                  <div class="review__who">
+                    <div class="avatar" aria-hidden="true"></div>
+                    <div>
+                      <strong>Paciente</strong>
+                      <small>Emagrecimento</small>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- Slide 2 -->
+                <article class="review">
+                  <div class="review__top">
+                    <div class="review__stars" aria-hidden="true">★★★★★</div>
+                    <span class="review__tag">Resultado</span>
+                  </div>
+                  <p class="review__text">
+                    “Perdi medidas, ganhei disposição e parei de sentir culpa
+                    por comer. Hoje eu sei me organizar sem extremismo.”
+                  </p>
+                  <div class="review__who">
+                    <div class="avatar" aria-hidden="true"></div>
+                    <div>
+                      <strong>Paciente</strong>
+                      <small>Composição corporal</small>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- Slide 3 -->
+                <article class="review">
+                  <div class="review__top">
+                    <div class="review__stars" aria-hidden="true">★★★★★</div>
+                    <span class="review__tag">Menopausa</span>
+                  </div>
+                  <p class="review__text">
+                    “Eu estava perdida na menopausa. Com orientações claras,
+                    consegui recuperar energia e controle. A consulta é
+                    extremamente detalhada.”
+                  </p>
+                  <div class="review__who">
+                    <div class="avatar" aria-hidden="true"></div>
+                    <div>
+                      <strong>Paciente</strong>
+                      <small>Saúde da mulher</small>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- Slide 4 -->
+                <article class="review">
+                  <div class="review__top">
+                    <div class="review__stars" aria-hidden="true">★★★★★</div>
+                    <span class="review__tag">Rotina</span>
+                  </div>
+                  <p class="review__text">
+                    “Eu precisava de um plano possível. Aprendi substituições e
+                    como escolher melhor no mercado. O acompanhamento foi um
+                    divisor de águas.”
+                  </p>
+                  <div class="review__who">
+                    <div class="avatar" aria-hidden="true"></div>
+                    <div>
+                      <strong>Paciente</strong>
+                      <small>Reeducação alimentar</small>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="slider__controls" aria-label="Controles do carrossel">
+              <button class="iconBtn" data-slider-prev aria-label="Anterior">
+                <span aria-hidden="true">←</span>
+              </button>
+              <div
+                class="slider__dots"
+                data-slider-dots
+                aria-hidden="true"
+              ></div>
+              <button class="iconBtn" data-slider-next aria-label="Próximo">
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section"
+        id="planos"
+        aria-label="Planos de acompanhamento"
+      >
+        <div class="container">
+          <div class="sectionHead" data-animate="fade-up">
+            <p class="sectionHead__kicker">Acompanhamento</p>
+            <h2 class="sectionHead__title">
+              Escolha um caminho eu te ajudo com o melhor plano
+            </h2>
+            <p class="sectionHead__desc">
+              Você pode oferecer como consultivo (sem expor valores) ou incluir
+              preços quando desejar.
+            </p>
+          </div>
+
+          <div class="planGrid" data-animate="fade-up" data-delay="120">
+            <article class="planCard">
+              <div class="planCard__head">
+                <span class="planCard__badge">Essencial</span>
+                <h3>Consulta + Direção</h3>
+                <p>
+                  Para quem quer clareza, ajustes iniciais e um plano bem
+                  estruturado.
+                </p>
+              </div>
+              <ul class="planCard__list">
+                <li>Consulta detalhada</li>
+                <li>Plano alimentar personalizado</li>
+                <li>Lista de substituições</li>
+                <li>Orientações de hábitos</li>
+              </ul>
+              <a class="btn btn--ghost btn--block" href="#contato"
+                >Quero este</a
+              >
+            </article>
+
+            <article class="planCard planCard--featured">
+              <div class="planCard__head">
+                <span class="planCard__badge planCard__badge--gold"
+                  >Mais escolhido</span
+                >
+                <h3>Acompanhamento</h3>
+                <p>
+                  Para quem quer evolução constante com suporte, ajustes e
+                  consistência.
+                </p>
+              </div>
+              <ul class="planCard__list">
+                <li>Consulta + plano completo</li>
+                <li>Check-ins e ajustes</li>
+                <li>Suporte durante o período</li>
+                <li>Estratégias para eventos/rotina</li>
+              </ul>
+              <a class="btn btn--primary btn--block" href="#contato"
+                >Começar agora</a
+              >
+            </article>
+
+            <article class="planCard">
+              <div class="planCard__head">
+                <span class="planCard__badge">Premium</span>
+                <h3>Estratégico</h3>
+                <p>
+                  Para objetivos específicos: estética, menopausa, composição
+                  corporal.
+                </p>
+              </div>
+              <ul class="planCard__list">
+                <li>Plano avançado e ajustes</li>
+                <li>Rotina personalizada</li>
+                <li>Foco em objetivos</li>
+                <li>Planejamento prático</li>
+              </ul>
+              <a class="btn btn--ghost btn--block" href="#contato"
+                >Quero este</a
+              >
+            </article>
+          </div>
+
+          <div class="callout" data-animate="fade-up">
+            <div class="callout__copy">
+              <strong>Quer atendimento imediato?</strong>
+              <span
+                >Me chame no WhatsApp e eu te oriento o melhor caminho para o
+                seu objetivo.</span
+              >
+            </div>
+            <a
+              class="btn btn--primary"
+              href="https://wa.me/5500000000000"
+              target="_blank"
+              rel="noopener"
+              >Falar no WhatsApp</a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        class="section section--soft"
+        id="faq"
+        aria-label="Perguntas frequentes"
+      >
+        <div class="container">
+          <div class="sectionHead" data-animate="fade-up">
+            <p class="sectionHead__kicker">Tire suas dúvidas</p>
+            <h2 class="sectionHead__title">Perguntas frequentes</h2>
+            <p class="sectionHead__desc">
+              Respostas diretas para você se sentir segura antes de começar.
+            </p>
+          </div>
+
+          <div
+            class="faq"
+            data-animate="fade-up"
+            data-delay="120"
+            data-accordion
+          >
+            <div class="faqItem">
+              <button class="faqQ" aria-expanded="false">
+                <span>O atendimento é online ou presencial?</span>
+                <i class="faqIcon" aria-hidden="true"></i>
+              </button>
+              <div class="faqA">
+                <p>
+                  Atendo online e presencial em Águas Claras - DF (conforme
+                  disponibilidade).
+                </p>
+              </div>
+            </div>
+
+            <div class="faqItem">
+              <button class="faqQ" aria-expanded="false">
+                <span>Em quanto tempo vejo resultados?</span>
+                <i class="faqIcon" aria-hidden="true"></i>
+              </button>
+              <div class="faqA">
+                <p>
+                  Depende do seu ponto de partida, rotina, consistência e
+                  objetivos. O foco é construir progresso sustentável, com
+                  ajustes ao longo do caminho.
+                </p>
+              </div>
+            </div>
+
+            <div class="faqItem">
+              <button class="faqQ" aria-expanded="false">
+                <span>Você passa dieta “restritiva”?</span>
+                <i class="faqIcon" aria-hidden="true"></i>
+              </button>
+              <div class="faqA">
+                <p>
+                  Minha abordagem é realista. Ajusto estratégia conforme
+                  objetivo e contexto, buscando equilíbrio, saciedade e uma
+                  relação saudável com a comida.
+                </p>
+              </div>
+            </div>
+
+            <div class="faqItem">
+              <button class="faqQ" aria-expanded="false">
+                <span>Como agendo e quais são os próximos passos?</span>
+                <i class="faqIcon" aria-hidden="true"></i>
+              </button>
+              <div class="faqA">
+                <p>
+                  Preencha o formulário abaixo e você será direcionada para o
+                  WhatsApp com uma mensagem pronta. Se preferir, clique no botão
+                  de WhatsApp a qualquer momento.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contato" aria-label="Contato e agendamento">
+        <div class="container">
+          <div class="sectionHead" data-animate="fade-up">
+            <p class="sectionHead__kicker">Contato</p>
+            <h2 class="sectionHead__title">
+              Vamos conversar sobre seu objetivo
+            </h2>
+            <p class="sectionHead__desc">
+              Responda rapidamente e eu retorno com a melhor opção de
+              acompanhamento.
+            </p>
+          </div>
+
+          <div class="contactGrid">
+            <div class="contactInfo" data-animate="fade-right">
+              <div class="contactInfo__card">
+                <h3>Atendimento</h3>
+                <p>Online e presencial (Águas Claras - DF).</p>
+
+                <div class="contactInfo__items" role="list">
+                  <div class="contactItem" role="listitem">
+                    <div class="contactItem__icon" aria-hidden="true">◎</div>
+                    <div class="contactItem__txt">
+                      <strong>Local</strong>
+                      <span>Águas Claras — Brasília/DF</span>
+                    </div>
+                  </div>
+
+                  <div class="contactItem" role="listitem">
+                    <div class="contactItem__icon" aria-hidden="true">✉</div>
+                    <div class="contactItem__txt">
+                      <strong>E-mail</strong>
+                      <span>contato@seudominio.com</span>
+                    </div>
+                  </div>
+
+                  <div class="contactItem" role="listitem">
+                    <div class="contactItem__icon" aria-hidden="true">✆</div>
+                    <div class="contactItem__txt">
+                      <strong>WhatsApp</strong>
+                      <span>(00) 00000-0000</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="miniMap" aria-label="Mapa ilustrativo" role="img">
+                  <iframe
+                    title="Mapa - Brasília"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps?q=Bras%C3%ADlia&output=embed"
+                  >
+                  </iframe>
+                </div>
+
+                <div class="contactInfo__cta">
+                  <a
+                    class="btn btn--primary btn--block"
+                    href="https://wa.me/5500000000000"
+                    target="_blank"
+                    rel="noopener"
+                    >Falar no WhatsApp</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="contactForm" data-animate="fade-left" data-delay="120">
+              <form class="form" id="leadForm">
+                <div class="form__row">
+                  <label class="field">
+                    <span class="field__label">Seu nome</span>
+                    <input
+                      class="field__input"
+                      type="text"
+                      name="nome"
+                      placeholder="Digite seu nome completo"
+                      required
+                    />
+                  </label>
+
+                  <label class="field">
+                    <span class="field__label">WhatsApp</span>
+                    <input
+                      class="field__input"
+                      type="tel"
+                      name="telefone"
+                      placeholder="(00) 00000-0000"
+                      required
+                    />
+                  </label>
+                </div>
+
+                <label class="field">
+                  <span class="field__label">Objetivo</span>
+                  <select class="field__input" name="objetivo" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option>Emagrecimento</option>
+                    <option>Composição corporal / Estética</option>
+                    <option>Menopausa / Saúde da mulher</option>
+                    <option>Reeducação alimentar</option>
+                    <option>Outro</option>
+                  </select>
+                </label>
+
+                <label class="field">
+                  <span class="field__label">Conte um pouco</span>
+                  <textarea
+                    class="field__input field__textarea"
+                    name="mensagem"
+                    rows="5"
+                    placeholder="Ex.: rotina, dificuldades, o que já tentou, seu objetivo principal..."
+                  ></textarea>
+                </label>
+
+                <label class="checkRow">
+                  <input type="checkbox" id="consent" required />
+                  <span
+                    >Concordo em enviar meus dados para contato e iniciar
+                    conversa no WhatsApp.</span
+                  >
+                </label>
+
+                <button class="btn btn--primary btn--block" type="submit">
+                  Enviar mensagem no WhatsApp
+                  <i class="icon icon--arrow" aria-hidden="true"></i>
+                </button>
+
+                <p class="form__note">
+                  Ao enviar, você será direcionada ao WhatsApp com uma mensagem
+                  pronta (você pode editar antes de enviar).
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" aria-label="Rodapé">
+        <div class="container footer__grid">
+          <div class="footer__brand">
+            <div class="brand brand--footer">
+              <span class="brand__mark" aria-hidden="true">CD</span>
+              <span class="brand__text">
+                <strong>Cíntia Dias</strong>
+                <small>Nutricionista • Emagrecimento & Estética</small>
+              </span>
+            </div>
+            <p class="footer__desc">
+              Nutrição feminina com foco em saúde, autoestima e resultados
+              sustentáveis.
+            </p>
+            <div class="footer__social">
+              <a href="#" aria-label="Instagram" class="social">IG</a>
+              <a href="#" aria-label="WhatsApp" class="social">WA</a>
+              <a href="#" aria-label="E-mail" class="social">Mail</a>
+            </div>
+          </div>
+
+          <div class="footer__links">
+            <strong class="footer__title">Navegação</strong>
+            <a href="#sobre">Sobre</a>
+            <a href="#metodo">Método</a>
+            <a href="#especialidades">Especialidades</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#contato">Agendar</a>
+          </div>
+
+          <div class="footer__links">
+            <strong class="footer__title">Atendimento</strong>
+            <a href="#contato">Águas Claras - DF</a>
+            <a href="#contato">Online</a>
+            <a href="#faq">Perguntas frequentes</a>
+            <a href="#planos">Acompanhamento</a>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <div class="container footer__bottomInner">
+            <small
+              >© <span id="year"></span> Cíntia Dias. Todos os direitos
+              reservados.</small
+            >
+            <small class="footer__muted"
+              >Designed by
+              <a
+                href="https://nosreffejdev.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Jefferson Gabriel
+              </a></small
+            >
+          </div>
+        </div>
+      </footer>
+
+      <!-- <div class="floaters" aria-hidden="false">
+        <a
+          class="floater floater--whats"
+          href="https://wa.me/5500000000000"
+          target="_blank"
+          rel="noopener"
+          aria-label="Abrir WhatsApp"
+        >
+          <span class="floater__icon" aria-hidden="true">WA</span>
+          <span class="floater__text">WhatsApp</span>
+        </a>
+
+        <button
+          class="floater floater--top"
+          id="backToTop"
+          aria-label="Voltar ao topo"
+        >
+          <span class="floater__icon" aria-hidden="true">↑</span>
+        </button>
+      </div> -->
+
+      <div
+        class="modal"
+        id="modal"
+        aria-hidden="true"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Detalhes"
+      >
+        <div class="modal__overlay" data-modal-close></div>
+        <div class="modal__panel" role="document">
+          <button class="modal__close" data-modal-close aria-label="Fechar">
+            ✕
+          </button>
+          <div class="modal__content" id="modalContent"></div>
+        </div>
+      </div>
+
+      <template id="tpl-m1">
+        <h3>Emagrecimento feminino</h3>
+        <p>
+          Estratégia para reduzir peso e medidas com saúde, respeitando sua
+          rotina e individualidade. Aqui a gente evita extremos e trabalha
+          consistência.
+        </p>
+        <ul class="checkList">
+          <li>Plano alimentar realista</li>
+          <li>Estratégias para fome emocional</li>
+          <li>Organização de rotina</li>
+          <li>Suporte para ajustes</li>
+        </ul>
+        <div class="modal__cta">
+          <a class="btn btn--primary" href="#contato" data-modal-close
+            >Agendar consulta</a
+          >
+        </div>
+      </template>
+
+      <template id="tpl-m2">
+        <h3>Estética & composição corporal</h3>
+        <p>
+          A estética é consequência de estratégia: alimentação inteligente para
+          saciedade, energia e alinhamento com seu objetivo (ex.: reduzir
+          gordura, melhorar medidas, melhorar disposição).
+        </p>
+        <ul class="checkList">
+          <li>Estrutura de refeições</li>
+          <li>Foco em consistência</li>
+          <li>Orientação de escolhas</li>
+          <li>Planejamento para semana</li>
+        </ul>
+        <div class="modal__cta">
+          <a class="btn btn--primary" href="#contato" data-modal-close
+            >Quero começar</a
+          >
+        </div>
+      </template>
+
+      <template id="tpl-m3">
+        <h3>Menopausa & saúde da mulher</h3>
+        <p>
+          Ajustes nutricionais podem ajudar a lidar com sintomas, metabolismo e
+          qualidade de vida. A abordagem é individualizada e construída com
+          clareza.
+        </p>
+        <ul class="checkList">
+          <li>Rotina e sintomas</li>
+          <li>Estratégia para massa magra</li>
+          <li>Orientação para energia e saciedade</li>
+          <li>Plano adaptado à fase</li>
+        </ul>
+        <div class="modal__cta">
+          <a class="btn btn--primary" href="#contato" data-modal-close
+            >Agendar avaliação</a
+          >
+        </div>
+      </template>
+
+      <template id="tpl-m4">
+        <h3>Reeducação alimentar</h3>
+        <p>
+          Para organizar a rotina alimentar, reduzir compulsões e criar
+          consistência sem radicalismos. Você aprende decisões práticas para o
+          dia a dia.
+        </p>
+        <ul class="checkList">
+          <li>Estratégia de mercado</li>
+          <li>Substituições inteligentes</li>
+          <li>Planejamento simples</li>
+          <li>Autonomia com leveza</li>
+        </ul>
+        <div class="modal__cta">
+          <a class="btn btn--primary" href="#contato" data-modal-close
+            >Quero organizar minha rotina</a
+          >
+        </div>
+      </template>
+    </main>
+
+    <!-- JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>
