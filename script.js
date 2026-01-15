@@ -478,7 +478,7 @@ ${msg ? ('Contexto: ' + msg) : 'Quero saber como funciona o acompanhamento e val
 
 Pode me orientar sobre o melhor plano para mim?`;
 
-    const phone = '5561982360017';
+    const phone = '5561982824571'; // TROQUE AQUI
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener');
   });
